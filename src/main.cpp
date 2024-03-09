@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    JogoVida jogoVida(5, 5);
+    JogoVida jogoVida;
     jogoVida.inicializarMundo();
     jogoVida.imprimeMundo();
     jogoVida.proximoCiclo();
