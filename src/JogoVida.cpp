@@ -125,7 +125,28 @@ void JogoVida::proximoCiclo()
     {
         for (int j = 0; j < colunas; j++)
         {
+            if (tabuleiro[i][j] != tabuleiroAux[i][j])
+            {
+                verificaIgualdade = false;
+            }
             tabuleiro[i][j] = tabuleiroAux[i][j];
         }
     }
+}
+
+void JogoVida::escreverNoArquivo(){
+    ofstream outFile;
+    outFile.open("datasets/gerações.mps",ios::app);
+    for (int i = 0; i < linhas; i++){
+        for (int j = 0; j < colunas; j++){
+            outFile << tabuleiro[i][j] << " ";
+        }
+        outFile << endl;
+    }
+    outFile << endl;
+    outFile.close();
+}
+
+bool JogoVida::getVerificaIgualdade(){
+    return verificaIgualdade;
 }

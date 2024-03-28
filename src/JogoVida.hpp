@@ -12,13 +12,16 @@ class JogoVida {
         int **tabuleiroAux;
         int linhas;
         int colunas;
-    public:
-        JogoVida();
-        ~JogoVida();
-        void inicializarMundo();
-        void imprimeMundo();
-        void proximoCiclo();
-        int contaVizinhosVivos(int i, int j);
+        bool verificaIgualdade = true; 
+        public:
+            JogoVida();
+            ~JogoVida();
+            bool getVerificaIgualdade();
+            void inicializarMundo();
+            void imprimeMundo();
+            void escreverNoArquivo();
+            void proximoCiclo();
+            int contaVizinhosVivos(int i, int j);
 };
 
 #endif
