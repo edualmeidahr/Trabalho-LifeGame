@@ -68,8 +68,8 @@ O principal objetivo desse trabalho é revisar conceitos anteriores já vistos n
 - `proximoCiclo`: Percorre o tabuleiro verificando quantos vizinhos vivos cada posição tem (usando a função acima), e a partir disso, verifica se de acordo com as regras impostas, ela continuará viva ou morta para a próxima geração. E por fim, ela atualiza o tabuleiro.
 - `verificaIgualdade`: Esse atributo é usado para verificar se duas gerações seguidas são iguais, determinando que o jogo chegou ao fim, pois o tabuleiro continuará sempre igual.
 <div align="center" style="display: flex; justify-content: center;">
-  <img src="imgs/FunçãovizinhosVivos.png" alt="Função contaVizinhosVivos" width="300px">
-  <img src="imgs/FuncaoProximoCiclo.png" alt="Função proximoCiclo" width="300px">
+  <img src="imgs/FunçãovizinhosVivos.png" alt="Função contaVizinhosVivos" width="500px">
+  <img src="imgs/FuncaoProximoCiclo.png" alt="Função proximoCiclo" width="400px">
 </div>
 
 
