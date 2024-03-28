@@ -19,6 +19,5 @@ int main() {
         }
         jogoVida.escreverNoArquivo();
     }
-    
     return 0;
 }
