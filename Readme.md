@@ -1,4 +1,4 @@
-<h1 align="center" font-size="200em"><b>Busca DFS, BFS e randômica</b></h1>
+<h1 align="center" font-size="200em"><b>Trabalho JOGO DA VIDA</b></h1>
 
 <div align = "center" >
 <!-- imagem -->
@@ -68,11 +68,11 @@ O principal obejtivo desse trabalho é revisar conceitos anteriores já vistos n
 - ``: imprime a lista.
 - `contaVizinhosVivos`: Recece como parâmetro uma casa do tabuleiro e verifica quantos vizinhos vivo ela tem, por meio de um sistema de joystick, como segue abaixo:
 <div aling="center">
-<img src="imgs/FunçãovizinhosVivos.png" alt="Função contaVizinhosVivos" widht=200px> 
+<img src="imgs/FunçãovizinhosVivos.png" alt="Função contaVizinhosVivos" widht=100px> 
 <div>
 - `proximoCiclo`: Percorre o tabuleiro verificando quantos vizinhos vivo cada posição tem(usando a fuunção acima), e a partir disso, veririca se de acordo com as regras importas, ela continuará viva ou morta para a próxima geração. E por fim ela atualiza o tabuleiro.
 <div aling="center">
-<img src="imgs/FuncaoProximoCiclo.png" alt="Função proximoCiclo" widht=200px> 
+<img src="imgs/FuncaoProximoCiclo.png" alt="Função proximoCiclo" widht=100px> 
 <div>
 - `verificaIgualdade`: Esse atributo é usado para verificar caso duas gerações seguidas sejam iguals, assim determinando que o jogo chegou ao fim, pois o tabuleiro continuará sempre igual.
 
