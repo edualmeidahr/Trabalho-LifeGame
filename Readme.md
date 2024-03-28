@@ -64,16 +64,16 @@ O principal objetivo desse trabalho é revisar conceitos anteriores já vistos n
 - `inicializarMundo`: Lê a matriz do arquivo input.mps.
 - `imprimeMundo`: imprime o tabuleiro.
 - `escreverArquivo`: escreve o tabuleiro atual no arquivo gerações.mps
-- ``: imprime a lista.
 - `contaVizinhosVivos`: Recebe como parâmetro uma casa do tabuleiro e verifica quantos vizinhos vivos ela tem, por meio de um sistema de joystick.
-<div align="center">
-<img src="imgs/FunçãovizinhosVivos.png" alt="Função contaVizinhosVivos" width="100px"> 
-</div>
 - `proximoCiclo`: Percorre o tabuleiro verificando quantos vizinhos vivos cada posição tem (usando a função acima), e a partir disso, verifica se de acordo com as regras impostas, ela continuará viva ou morta para a próxima geração. E por fim, ela atualiza o tabuleiro.
-<div align="center">
-<img src="imgs/FuncaoProximoCiclo.png" alt="Função proximoCiclo" width="100px"> 
-</div>
 - `verificaIgualdade`: Esse atributo é usado para verificar se duas gerações seguidas são iguais, determinando que o jogo chegou ao fim, pois o tabuleiro continuará sempre igual.
+<div align="center">
+<img src="imgs/FunçãovizinhosVivos.png" alt="Função contaVizinhosVivos" width="200px"> 
+</div>
+<div align="center">
+<img src="imgs/FuncaoProximoCiclo.png" alt="Função proximoCiclo" width="200px"> 
+</div>
+
 
 ## 🎯 Resultados
 Como resultado, temos todas as gerações criadas salvas no arquivo gerações.mps (a quantidade escolhida pelo usuário). Lembrando também que caso tenham duas gerações seguidas iguais, o jogo deve ser encerrado e mostrada uma mensagem na tela. Nesse caso, o jogo terminaria antes do previsto.
